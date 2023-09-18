@@ -22,17 +22,14 @@ public class RenameThisClass
             System.out.print(item + " ");
         }
         
-        System.out.println(); //separate 
+        System.out.println(); //separate lines printed
         
         //Separated by a dash
-        for (int i = 0; i < strArray.length; i++) 
+        for (String item : strArray) 
         {
-            System.out.print(strArray[i]);
-            if (i < strArray.length - 1) 
-            {
-                System.out.print(" - ");
-            }
+            System.out.print(item + " - ");
         }
+        
     }
 }
 
