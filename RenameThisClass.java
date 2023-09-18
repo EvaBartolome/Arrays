@@ -25,11 +25,12 @@ public class RenameThisClass
         System.out.println(); //separate lines printed
         
         //Separated by a dash
-        for (String item : strArray) 
-        {
-            System.out.print(item + " - ");
+        for (int i = 0; i < strArray.length; i++) {
+            System.out.print(strArray[i]);
+            if (i !=strArray.length - 1)
+                System.out.print(" - ");
         }
-        
     }
 }
+
 
