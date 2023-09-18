@@ -28,7 +28,7 @@ public class RenameThisClass
         for (int i = 0; i < strArray.length; i++) {
             System.out.print(strArray[i]);
             if (i !=strArray.length - 1)
-                System.out.print(" - ");
+                System.out.print("-");
         }
     }
 }
